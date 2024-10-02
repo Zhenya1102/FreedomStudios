@@ -45,3 +45,8 @@
     display: inline-block;
     height: 100%;
 }
+
+.footer__label {
+    text-align: center;
+    padding-bottom: 30px;
+}
