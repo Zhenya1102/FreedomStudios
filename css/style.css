@@ -202,7 +202,7 @@
 
 .about__item_title:before {
   content: '';
-  background: url("images/icons/check.svg") center no-repeat;
+  background: url("/images/icons/check.svg") center no-repeat;
   position: absolute;
   top: 0;
   left: 0;
