@@ -1,11 +1,11 @@
-@import "css/null.css";
-@import "css/common.css";
-@import "css/header.css";
-@import "css/footer.css";
+@import "null.css";
+@import "common.css";
+@import "header.css";
+@import "footer.css";
 
 @font-face {
   font-family: "Barlow-Regular";
-  src: url("fonts/Barlow/Barlow-Regular.ttf") format("truetype");
+  src: url("/fonts/Barlow-Regular.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "Barlow-Bold";
-  src: url("fonts/Barlow/Barlow-Bold.ttf") format("truetype");
+  src: url("/fonts/Barlow-Bold.ttf") format("truetype");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -202,7 +202,7 @@
 
 .about__item_title:before {
   content: '';
-  background: url("icons/check.svg") center no-repeat;
+  background: url("images/icons/check.svg") center no-repeat;
   position: absolute;
   top: 0;
   left: 0;
