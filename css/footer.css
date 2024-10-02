@@ -32,6 +32,13 @@
 .footer__icon {
     width: 30px;
     height: 30px;
+    transition: transform 0.2s ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .footer__icon:hover {
+        transform: scale(1.1);
+    }
 }
 
 .footer__icon a {

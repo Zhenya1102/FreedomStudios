@@ -28,6 +28,26 @@
   align-items: flex-start;
 }
 
+.home__subtitle {
+  position: relative;
+  left: -100%;
+  opacity: 0;
+  transition: left, opacity 0.5s ease;
+  animation: visible ease 1s forwards;
+}
+
+@keyframes visible {
+  0% {
+    left: -100%;
+    opacity: 0;
+  }
+  100% {
+    left: 0;
+    opacity: 1;
+  }
+
+}
+
 .home__image {
   position: absolute;
   width: 100vw;
@@ -85,6 +105,10 @@
   display: flex;
   column-gap: 20px;
   max-width: 255px;
+}
+
+.advantages__item img {
+  object-fit: contain;
 }
 
 .advantages__item span {
@@ -145,6 +169,12 @@
     width: 100%;
     padding-bottom: 0;
     max-height: 340px;
+  }
+}
+
+@media (max-width: 778px) {
+  .about__image {
+    width: 100vw;
   }
 }
 
@@ -240,6 +270,12 @@
     width: 100%;
     padding-bottom: 0;
     max-height: 340px;
+  }
+}
+
+@media (max-width: 778px) {
+  .team__image {
+    width: 100vw;
   }
 }
 
@@ -364,7 +400,7 @@
 
 .checkbox {
   display: flex;
-  column-gap: 15px;
+  column-gap: 30px;
   margin-bottom: 20px;
 }
 
