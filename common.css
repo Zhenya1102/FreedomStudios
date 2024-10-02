@@ -1,0 +1,86 @@
+.logo {
+    display: inline-block;
+    max-width: 145px;
+    height: 28px;
+    z-index: 100;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    font-family: 'Barlow-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    padding: 20px 50px;
+    text-align: center;
+    background-color: #E11B19;
+    border-radius: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+@media (max-width: 460px) {
+    .button {
+        min-width: 100%;
+    }
+}
+
+.button:hover {
+    background-color: #910100;
+}
+
+.button:active {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.subtitle {
+    font-family: 'Barlow-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.title {
+    font-family: 'Barlow-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 778px) {
+    .title {
+        font-size: 36px;
+        line-height: 44px;
+    }
+}
+
+.second-title {
+    font-family: 'Barlow-Bold', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 778px) {
+    .second-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+.text {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+@media (max-width: 778px) {
+    .text {
+        font-size: 18px;
+        line-height: 24px;
+    }
+}

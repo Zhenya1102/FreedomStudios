@@ -1,0 +1,40 @@
+.footer {
+    background-color: #14171A;
+}
+
+.footer__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px 0;
+}
+
+@media (max-width: 778px) {
+    .footer__body {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+.footer__social {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width: 778px) {
+    .footer__social {
+        column-gap: 20px;
+    }
+}
+
+.footer__icon {
+    width: 30px;
+    height: 30px;
+}
+
+.footer__icon a {
+    display: inline-block;
+    height: 100%;
+}
