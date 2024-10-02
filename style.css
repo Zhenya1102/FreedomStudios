@@ -1,7 +1,7 @@
-@import "null.css";
-@import "common.css";
-@import "header.css";
-@import "footer.css";
+@import "css/null.css";
+@import "css/common.css";
+@import "css/header.css";
+@import "css/footer.css";
 
 @font-face {
   font-family: "Barlow-Regular";
@@ -202,7 +202,7 @@
 
 .about__item_title:before {
   content: '';
-  background: url("image/check.svg") center no-repeat;
+  background: url("icons/check.svg") center no-repeat;
   position: absolute;
   top: 0;
   left: 0;
